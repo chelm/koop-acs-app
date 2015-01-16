@@ -5,8 +5,7 @@ var express = require("express"),
   cors = require('cors'),
   config = require("config"),
   koop = require('koop')( config ),
-  acs = require('koop-acs'),
-
+  acs = require('koop-acs');
 
 //register providers with koop 
 koop.register( acs ); 
